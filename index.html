@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED Circuit Instructions</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>LED Circuit Instructions</h1>
+        <h2>Aim</h2>
+        <p>Create a simple circuit to light up an LED using a 9V battery and a breadboard, with an optional switch to control the LED safely.</p>
+
+        <h2>What You'll Need:</h2>
+        <ul class="components">
+            <li>9V Battery – supplies power.</li>
+            <img src="9vBattery.jpg" alt="" class="battery">
+            <li>LED – a small light bulb that glows when current flows.</li>
+            <img src="led.jpg" alt="" class="battery">
+            <li>220-ohm Resistor – limits current to protect the LED.</li>
+            <img src="resistor.png" alt="" class="battery" style="width: 150px; height: 50px;">
+            <li>Breadboard – a board to connect components without soldering.</li>
+            <img src="bread.jpg" alt="" class="battery" style="width: 450px; height: 250px;">
+            <div class="bread">
+            <p>
+                <h3>Understanding the Breadboard :</h3>
+                A breadboard is like a reusable puzzle board for circuits, helping us connect parts
+                safely and without soldering. Here’s a breakdown:
+                <li>Rows and Columns: The middle of the breadboard has rows of five connected
+                holes, helping you connect components horizontally.</li>
+                <li>Power Rails: The long lines on each side carry power from top to bottom.</li>
+                <li>Parallel and Series Connections: Parts in the same row share power (parallel),
+                while parts connected in a line create a step-by-step path (series).</li>
+            </p>
+            </div>
+            <li>Jumper Wires – connect parts on the breadboard.</li>
+            <img src="wire.jpg" alt="" class="battery" style="width: 150px; height: 150px;">
+            <li>Switch (optional) – allows you to turn the LED on and off easily.</li>
+            <img src="switch.jpg" alt="" alt="" class="battery" style="width: 150px; height: 150px;">
+        </ul>
+
+        <h2 class="steps">Steps to Build the Circuit</h2>
+        <div class="steps">
+            <ol>
+                <li>
+                    <strong>Place the LED:</strong>
+                    <p>Identify the LED’s two legs:</p>
+                    <p>- Insert the anode (longer leg) into a row on the breadboard.</p>
+                    <p>- Insert the cathode (shorter leg) into another row.</p>
+                   
+                    <p>
+                    <ul>
+                        <li>The longer leg is the anode (positive side), where power enters.</li>
+                        <li>The shorter leg is the cathode (negative side), where power exits.</li>
+                    </ul>
+                    <img src="bl.png" alt="" class="ckt">
+                </p>
+                </li>
+                <li>
+                    <strong>Add the Resistor:</strong>
+                    <p>- Place one end of the resistor (220 ohm) in the same row as the LED's anode and the other end in a different row.</p> 
+                    <p> The resistor controls the electricity flowing to the LED, preventing it from burning out by keeping the current safe.</p>
+                    <img src="lr.png" class="ckt" alt="">
+                </li>
+                <li>
+                    <strong>Place the Switch (Optional):</strong>
+                    <p>- Insert the switch onto the breadboard, and connect jumper wires to control the circuit.</p>
+                    <img src="ls.png" class="ckt" alt="">
+                </li>
+                <li>
+                    <strong>Attach the Battery Clip to the Breadboard:</strong>
+                    <p>- Attach the battery clip to the battery.</p>
+                    <p>- Connect the red wire from the battery clip to the + power rail and the black wire to the
+                        power</p>
+                        <img src="comp.png" alt="" class="ckt" style="width: 530px;">
+                </li>
+                <li>
+                    <strong>Power the Circuit and Test the Switch:</strong>
+                    <p>- Double-check all connections, then press or toggle the switch to turn the LED on and.
+                        off.</p>
+                        <img src="on.png" alt="" class="ckt" style="width: 530px;">
+
+                    <p></p>
+                </li>
+            </ol>
+            <h2>How It Works:</h2>
+            <div>
+                <p>When the battery is connected, electricity flows from the battery’s positive terminal through
+                the red wire, resistor, and LED’s anode (long leg). It exits through the cathode (short leg)
+                and goes to the ground, lighting up the LED. The switch interrupts or allows this flow of
+                electricity, letting you turn the LED on and off easily.
+            </p>
+            <p>Adding a switch makes it safe and easy to control the LED, helps conserve battery power,
+                and prevents overheating. You’ve now built a complete LED circuit with a switch – great
+                job!
+            </p>
+            <img src="working.jpg" style="width: 700px; padding: 35px;" alt="">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

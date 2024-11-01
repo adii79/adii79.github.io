@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+h1, h2 ,h3 {
+    color: #0056b3;
+}
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.content {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.steps {
+    margin-top: 20px;
+    background-color: #8480802e;
+    padding: 10px;
+    border-radius: 10px;
+}
+.steps ol {
+    padding-left: 40px;
+}
+
+.battery {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center; /* Horizontally centers the image */
+    align-items: center;    /* Vertically centers the image (if the container has a height) */
+    height: 100px;          /* Example height */
+}
+
+.bread{
+    margin-top: 20px;
+    background-color: #8480802e;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.ckt {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center; /* Horizontally centers the image */
+    align-items: center;    /* Vertically centers the image */
+    height: 350px; 
+}
